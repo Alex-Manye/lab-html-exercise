@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 1rem;
+}
+
+.Search {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.searchEngine {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+.search[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 50px;
+    margin-right: 60px;
+    font-size: 17px;
+    padding: 70px;
+    /* Si pongo margen y padding¿porqué el search engine me sale tan pequeño? */
+}
+
+.hexagon {
+    width: 200px;
+    padding: 10px, 30px, 10px, 30px;
+}
+
+.zeroconfiguration {
+    width: 40px;
+}
+
+.teammanagement {
+    width: 40px;
+}
+
+.familiarfeatures {
+    width: 40px;
+
+}
+
+.npmaudit { 
+    width: 40px;
+
+}
+
+section {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(232,217,217,.3);
+    
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    align-items: center;
+
+}
+.bring{
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    align-items: center;
+}
+
+
+.buttonsearch {
+    background-color: red;
+    color: white;
+}
+
+.buttonjoin {
+    background-color: white;
+    border: black;
+    /* le pongo borde y en la web me sale sin... */
+
+}
+
+.buttonlogin {
+    background-color: white;
+    /* No le pongo borde y en la web me sale si...*/
+    /* pongo color white y me sale background gris... */
+}
+
+buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonred { 
+    width: 200px;
+    background-color: #FB3B49;
+    font-size:20px;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    margin-left: 25px;
+ /* pongo todos los márgenes y el botón me sale con márgenes más pequeños que el orginial... */
+}
+
+.buttonwhite {
+    width: 200px;
+    font-size:20px;
+    background-color: #ffffff;
+    color: black;
+    margin: 30px 60px 30px 60px;
+
+}
+
+.blackbutton {
+    width: 200px;
+    font-size:20px;
+    background-color: black;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    margin: 30px 60px 30px 60px;
+
+}
+
+p { 
+    text-align: center;
+}
+a {
+    color: red;
+}
+
+.zero {
+    display: flex;
+    flex-direction: row;
+
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    color: red;
+    font-weight: bold;
+}
